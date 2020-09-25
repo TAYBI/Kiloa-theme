@@ -1,2 +1,57 @@
-.container {
+:root {
+  --purple: #b8b4e4;
+  --green: #2cc1bd;
+  --dark: #3f3d56;
+  --light: #eae8fe;
+  --bg-color: #f9f9ff;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--dark);
+}
+
+.container {
+  max-width: 1375px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: var(--purple);
+  color: white;
+  width: 100%;
+}
+
+.navbar {
+  background: var(--purple);
+  border: none;
+}
+
+/* Fonts */
+.russo {
+  font-family: "Russo One", sans-serif;
+}
+
+.logo {
+  color: white;
+}
+
+/* Buttons */
+/* .btn-primary {
+  color: var(--green);
+  color: white;
+  padding: 19px 37px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  padding: 19px 37px;
+  border: 1px solid var(--purple);
+} */
