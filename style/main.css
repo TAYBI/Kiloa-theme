@@ -33,11 +33,109 @@ body {
   border: none;
 }
 
-/* Fonts */
+img {
+  width: 100%;
+}
+
 .russo {
   font-family: "Russo One", sans-serif;
 }
 
 .logo {
   color: white;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 105.2%;
+}
+
+.kiloa {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140.62%;
+  margin-top: 4px;
+}
+
+footer {
+  background: var(--dark);
+  color: #ffffff;
+  padding: 3.125rem 1.25rem;
+}
+
+footer p {
+  margin-bottom: 4px;
+}
+
+footer hr {
+  border-top: 1px solid #ffffff;
+}
+
+footer h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 105.2%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+footer .BlogPost {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+footer small {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+footer .BlogPost-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+footer .BlogPost p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer,
+footer .links {
+  display: flex;
+}
+
+footer .links {
+  justify-content: space-between;
+  max-width: 550px;
+}
+
+footer .links div .b {
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer p {
+  margin: 0px 15px;
+  font-size: 14px;
+}
+
+.footer {
+  background: #393754;
+  color: white;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
 }
