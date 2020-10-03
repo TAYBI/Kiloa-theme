@@ -168,3 +168,21 @@ footer .links div .b {
     width: 100%;
   }
 }
+
+@media (min-width: 1200px) {
+  footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    padding: 3rem 5rem;
+  }
+
+  footer .links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .flex-ol {
+    margin-bottom: 0px;
+  }
+}
