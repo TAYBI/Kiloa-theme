@@ -139,3 +139,32 @@ footer .links div .b {
   align-items: center;
   justify-content: center;
 }
+
+@media (min-width: 750px) {
+  .flex-ol {
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  footer .links {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  footer .BlogPost {
+    margin: 0;
+  }
+
+  footer h1 {
+    margin-bottom: 0;
+  }
+
+  footer hr {
+    border-right: 1px solid #ffffff;
+    transform: rotate(90deg);
+    width: 100%;
+  }
+}
