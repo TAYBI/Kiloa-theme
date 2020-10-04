@@ -17,6 +17,24 @@ body {
   color: var(--dark);
 }
 
+h2 {
+  text-align: center;
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 105.2%;
+  margin-bottom: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 105.2%;
+}
+
 .container {
   max-width: 1375px;
   margin: 0 auto;

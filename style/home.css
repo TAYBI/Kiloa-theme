@@ -2,6 +2,7 @@
   padding: 0 1.25rem;
 }
 
+/* Hero */
 .hero {
   padding-bottom: 3.4rem;
 }
@@ -35,3 +36,114 @@
   padding: 1rem;
   margin-bottom: 15px;
 }
+/* end Hero */
+
+/* showcase global */
+.showcase-1,
+.showcase-2 {
+  text-align: center;
+  padding: 4.375rem 0rem 2.5rem 0rem;
+}
+
+.showcase-2 {
+  background: var(--light);
+}
+
+.showcase-1 img,
+.showcase-2 img {
+  width: 100%;
+}
+
+.showcase-1 h4,
+.showcase-2 h4,
+.showcase-1 p,
+.showcase-2 p {
+  margin-bottom: 25px;
+}
+
+.showcase-1 h4,
+.showcase-2 h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 105.2%;
+}
+
+.showcase-1 p,
+.showcase-2 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 155.2%;
+}
+/* end showcase global */
+
+/* services */
+.services {
+  padding: 4.375rem 0rem 2.5rem 0rem;
+}
+
+.services-card {
+  background: white;
+  border-radius: 10px;
+  border: solid 1px #3f3d56;
+  padding: 40px 30px;
+  text-align: center;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.service-card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.service-card-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #9b9b9b;
+}
+/* end services */
+
+/* testimonial */
+.testimonial {
+  background: var(--purple);
+  color: white;
+  padding: 4.375rem 0rem;
+}
+
+.testimonial .btns {
+  display: flex;
+  text-align: center;
+}
+
+.testimonial .btns div + div {
+  display: flex;
+  margin-left: 8px;
+}
+
+.btn-1,
+.btn-3 {
+  opacity: 0.5;
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
+  cursor: pointer;
+}
+/* end testimonial */
