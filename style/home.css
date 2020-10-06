@@ -65,7 +65,7 @@
 .showcase-2 h4 {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 30px !important;
   line-height: 105.2%;
 }
 
@@ -151,6 +151,89 @@
 /* pricing */
 .pricing {
   padding: 4.375rem 0rem;
+}
+
+.pricing-title {
+  margin-bottom: 20px;
+}
+
+.pricing-subtitle {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 105.2%;
+}
+
+.pricing ul {
+  list-style: none;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid var(--purple);
+  margin-top: 30px;
+  padding: 28px;
+}
+
+.pricing-card .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23.2711px;
+  line-height: 27px;
+  margin-bottom: 17.2px;
+}
+
+.pricing-card .price {
+  font-weight: normal;
+  font-size: 18.6169px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+}
+
+.pricing-card .price span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37.2338px;
+  line-height: 44px;
+}
+
+.pricing-card .subtitle {
+  margin-bottom: 20px;
+}
+
+.pricing-card .btn-secondary {
+  background: var(--purple);
+  font-weight: bold;
+  font-size: 18.6169px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  padding: 14px 84px;
+  border-radius: 10px;
+  border: none;
+}
+
+.pricing-card ul li {
+  margin-bottom: 10px;
+}
+
+.pricing-card ul li img {
+  margin-right: 10px;
+}
+
+.pricing .selected {
+  background: var(--purple);
+  color: white;
+}
+
+.pricing .selected .btn-secondary {
+  color: var(--purple);
+  background: white;
 }
 /* end pricing */
 
