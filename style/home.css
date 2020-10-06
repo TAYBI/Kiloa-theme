@@ -298,4 +298,49 @@
   background: var(--light);
   padding: 4.375rem 0rem;
 }
+
+.git-subtitle {
+  margin-bottom: 40px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 165.2%;
+  text-align: center;
+}
+
+.git-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.git-card {
+  background: white;
+  box-shadow: 0px 3.28199px 6.56398px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+}
+
+.git-card .flex {
+  display: flex;
+  align-items: center;
+}
+
+.git-card .flex img {
+  height: 56px;
+  width: auto;
+  margin-right: 32px;
+}
+
+.git-card .flex .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20.5124px;
+  line-height: 24px;
+  margin-bottom: 8.21px;
+}
+
+.git-card .flex .subtitle {
+  font-weight: normal;
+  font-size: 14.769px;
+  line-height: 17px;
+  color: #9b9b9b;
+}
 /* end get int touch */
