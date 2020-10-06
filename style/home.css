@@ -170,6 +170,12 @@
   gap: 1.25rem;
 }
 
+.team-subtitle {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 105.2%;
+}
+
 .team-card {
   margin: 0 auto;
   background: white;
@@ -207,6 +213,83 @@
 /* blog */
 .blog {
   padding: 4.375rem 0rem;
+}
+
+.blog-title {
+  margin-bottom: 20px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.blog-card {
+  max-width: 327px;
+  background: white;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.blog-card-img {
+  max-width: 100%;
+}
+
+.blog-card-title {
+  margin: 0 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.blog-card-img img {
+  max-width: 100%;
+}
+
+.blog-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.blog-card .flex {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+}
+
+.blog-card .flex img {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.blog-card .name {
+  font-size: 11.8559px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  background: white;
+  color: var(--dark);
+  border-radius: 5px;
+  border: 1px solid var(--dark);
+  padding: 15px 37px;
+  margin-top: 20px;
+}
+
+.btn-secondary:hover {
+  cursor: pointer;
 }
 /* end blog */
 
