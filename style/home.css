@@ -129,6 +129,8 @@
 .testimonial .btns {
   display: flex;
   text-align: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .testimonial .btns div + div {
@@ -145,6 +147,56 @@
 .btn-2:hover,
 .btn-3:hover {
   cursor: pointer;
+}
+
+.testimonial-title {
+  margin-bottom: 30px;
+}
+
+.testimonial-subtitle {
+  margin-bottom: 40px;
+}
+
+.testimonial .testimonial-card {
+  background: white;
+  color: var(--dark);
+  padding: 26px;
+  border: 1px solid var(--dark);
+}
+
+.testimonial .flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22.24px;
+}
+
+.testimonial .comment {
+  font-weight: normal;
+  font-size: 16.016px;
+  line-height: 139.7%;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.testimonial .title {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16.016px;
+  line-height: 19px;
+  color: #9b9b9b;
+}
+
+.testimonial .name {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 7px;
+}
+
+.testimonial .flex img {
+  border-radius: 50%;
+  width: 71px;
+  height: auto;
+  margin-right: 13.35px;
 }
 /* end testimonial */
 
